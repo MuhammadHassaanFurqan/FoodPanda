@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <nav>
+            <h1>FoodPanda</h1>
+            <button onclick="logout()">Logout</button>
+        </nav>
+        <div id="AdmDiv">
+            <h1>Welcome ! Admin</h1>
+        </div>
+        <div>
+            <h1>Enter Food</h1>
+            <input id="FoodID" placeholder="Enter Food ID" type="text"><br><br>
+            <input id="FoodImg" placeholder="Enter Image Url" type="text"><br><br>
+            <input id="FoodDesc" placeholder="Enter Food Description" type="text"><br><br>
+            <input id="FoodPrice" placeholder="Enter Food Price" type="text"><br><br>
+            <Button onclick="addFood()">Add Food</Button><br><br>
+        </div>
+        <div style="border: 5px solid black;" id="Food">
+           
+        </div>
+
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
